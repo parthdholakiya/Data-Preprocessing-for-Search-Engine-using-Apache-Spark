@@ -1,8 +1,8 @@
-# Data Preprocessing for Search Engine using Apache Spark
+# Data Preprocessing for Search Engine using Apache Spark in EMR Studio
 
 ## Overview
 
-This project analyzes a subset of Wikipedia data using Apache Spark. The dataset is loaded from an S3 bucket and processed to extract relevant information using Spark's DataFrame API. The analysis includes cleaning the data, tokenizing the text, and computing TF/IDF scores for each document. Finally, the project demonstrates how to search for specific terms (e.g., "Gettysburg") and retrieve the most relevant articles based on TF/IDF scores.
+This project analyzes a subset of Wikipedia data using Apache Spark in EMR Studio. The dataset is loaded from an S3 bucket and processed to extract relevant information using Spark's DataFrame API. The analysis includes cleaning the data, tokenizing the text, and computing TF/IDF scores for each document. The project utilizes parallel processing for efficient computation. Finally, the project demonstrates how to search for specific terms (e.g., "Gettysburg") and retrieve the most relevant articles based on TF/IDF scores.
 
 ## Requirements
 
@@ -20,4 +20,4 @@ This project analyzes a subset of Wikipedia data using Apache Spark. The dataset
 
 ## Conclusion
 
-This project demonstrates how to load, clean, preprocess, and analyze a subset of Wikipedia data using Spark, focusing on TF-IDF analysis for term relevance.
+This project demonstrates how to load, clean, preprocess, and analyze a subset of Wikipedia data using Spark in EMR Studio, focusing on TF-IDF analysis for term relevance with the use of parallel processing.
